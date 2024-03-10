@@ -3,8 +3,18 @@
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
-.navbar {
+.navbar{
     height: 60px;
-    color: #0f1111;
+    background-color:#0f1111;
     color: white;
+}
+.nav-log{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("https://www.paredro.com/wp-content/uploads/2018/08/Amazon-Logo.jpg");
+    background-size: cover;
+    height: 59px;
+    width: 100%;
 }
