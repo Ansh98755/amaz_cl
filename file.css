@@ -7,14 +7,46 @@
     height: 60px;
     background-color:#0f1111;
     color: white;
+    display: flex;
 }
 .nav-log{
     height: 50px;
     width: 100px;
 }
 .logo{
-    background-image: url("https://www.paredro.com/wp-content/uploads/2018/08/Amazon-Logo.jpg");
+    background-image: url("https://wallpaperaccess.com/full/1383586.jpg");
     background-size: cover;
-    height: 59px;
+    height: 55px;
     width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid aqua;
+}
+.nav-address{
+    height: 50px;
+    width: 100%;
+}
+.add-ico{
+    height: 50px;
+    width: 100%;
+}
+.add-fir{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    color: aliceblue;
+    font-size: 1rem;
+    margin-left: 3px;
+    margin-bottom: 20px;
+}
+.add-ico{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 100%;
 }
