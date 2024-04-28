@@ -111,13 +111,40 @@ span
     align-items: center;
     justify-content: space-evenly;
 }
-.panel-ops
+.panel-ops p
 {
     display: inline;
-    color: aliceblue;
+    margin-left: 15px;
 }
-.panel-all
+.panel-ops
 {
+    width: 70%;
     font-size: 0.85rem;
-    color: #f3f3f3;
+}
+.panel-deals
+{
+    width: 30%;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.main-section
+{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/prime/MayART24/ACQ/GW/New_MayART24_GW_PC_Hero._CB559897147_.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.products
+{
+    background-image: url(https://m.media-amazon.com/images/I/51ZSLrJqAML._AC_SY145_.jpg);
+    width: 300px;
+    height: 150px;
+}
+.det
+{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    display: flex;
+    margin-top: 2px;
+    padding-left: 0;
+    align-items: center;
 }
