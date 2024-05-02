@@ -229,5 +229,26 @@ footer
 }
 .foot-panel2
 {
-    
+    background-color: #222f3d;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul
+{
+    margin-top: 20px;
+}
+ul a
+{
+    margin-top: 10px;
+    font-size: 0.85rem;
+    display: block;
+    color: #dddddd;
+}
+.foot-panel3
+{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
 }
