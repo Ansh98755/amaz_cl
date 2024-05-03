@@ -231,7 +231,7 @@ footer
 {
     background-color: #222f3d;
     color: white;
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -249,6 +249,31 @@ ul a
 .foot-panel3
 {
     background-color: #222f3d;
-    color: white;
+    height: 100px;
     border-top: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    background-image: url("https://wallpaperaccess.com/full/1383586.jpg");
+    background-size: cover;
+    height: 55px;
+    width: 100px;
+}
+.foot-panel4
+{
+    height: 80px;
+    background-color: #0f1111;
+    color: #dddddd;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.pages
+{
+    padding-top: 25px;
+}
+.copy
+{
+    padding-top: 5px;
 }
